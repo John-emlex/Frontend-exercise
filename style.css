@@ -4,15 +4,20 @@ body {
   
   img {
     display: flex;
-    height: 200%;
-    width: 100%;
+    width: 10em;
+    margin: auto;
+    size-adjust: 50%;
     align-items: right;
   }
   div {
     align-content: center;
-    /* text-align: center; */
-    margin-left: 100px;
+    text-align: center;
+    margin: 100px;
     color: rgb(214, 73, 73);
-    border: 50%;
+    border: 0;
   }
+  .secondDiv {
+    text-align: center;
+  }
+  
   
