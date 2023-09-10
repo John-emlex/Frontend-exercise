@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(157, 240, 240);
+  }
+  
+  img {
+    display: flex;
+    height: 40;
+    width: 50%;
+    align-items: right;
+  }
+  div {
+    align-content: center;
+    /* text-align: center; */
+    margin-left: 100px;
+    color: rgb(214, 73, 73);
+    border: 50%;
+  }
+  
