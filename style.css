@@ -4,8 +4,8 @@ body {
   
   img {
     display: flex;
-    height: 40;
-    width: 50%;
+    height: 200%;
+    width: 100%;
     align-items: right;
   }
   div {
