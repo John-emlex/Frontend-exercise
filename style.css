@@ -20,4 +20,6 @@ body {
     text-align: center;
   }
   
-  
+  .name{
+    font-size: large;
+  }

@@ -7,15 +7,16 @@
   </head>
   <body>
     <div>
-      <img src="./image/image.jpeg" class="img" alt="perconal picture" />
+      <img data-testid="slackDisplayImage"  src="./image/image.jpeg" class="img" alt="data-testid=slackDisplayImage" />
       <div class="secondDiv">
-        <h1>
-          John
-        </h1>
-        <p>Track: Frontend</p>
-        <a href="https://github.com/John-emlex/Frontend-exercise">GitHub</a>
-        <p id="date"></p>
-        <p id="time"></p>
+        <p data-testid="slackUserName" class="name">
+          <strong>John-pet</strong>
+        </p>
+      
+        <p data-testid="myTrack" > Frontend</p>
+        <a data-testid="githubURL" href="https://github.com/John-emlex/Frontend-exercise">GitHub</a>
+        <p data-testid="currentDayOfTheWeek" id="date"></p>
+        <p data-testid="currentUTCTime" id="time"></p>
       </div>
     </div>
 
